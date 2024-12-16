@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+  
+#grid {
+    display: flex;
+    flex-wrap: wrap; /* This allows items to wrap into the next row */
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+  
+.square {
+    background-color: white;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+  
+.grid-container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+#change-grid-btn {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}  
